@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface MyComponentProps {
-  // Define props here 
+  // Define props here components
 }
 
 const MyComponent: React.FC<MyComponentProps> = () => {
