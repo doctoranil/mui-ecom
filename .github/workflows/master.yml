@@ -13,10 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Login to npm
+        run: npm login --registry=https://registry.npmjs.org/ --scope=@twinlify
+        env:
+          NPM_USER: webdewanil
+          NPM_PASSWORD: @2022!Jul@2022
+
       - name: Install dependencies
         run: npm install
 
       - name: Publish package
         run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+
