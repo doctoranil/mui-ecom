@@ -1,6 +1,6 @@
 {
   "name": "mui-ecom",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@mui/material": "^5.15.17",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
