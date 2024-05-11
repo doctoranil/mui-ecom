@@ -5,6 +5,7 @@
     "jsx": "react",
     "esModuleInterop": true,
     "strict": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "allowJs": true
   }
 }
