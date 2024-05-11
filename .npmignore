@@ -1,7 +1,3 @@
-node_modules
-src/
-.env
-.github
-
-
-
+  "files": [
+    "dist"
+  ],
