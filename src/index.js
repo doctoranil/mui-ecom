@@ -1,3 +1,3 @@
-import MyCounter from './components/App';
-export { MyCounter };
+import MyCounter from './components/App'
+export { MyCounter }
 //# sourceMappingURL=Index.js.map
