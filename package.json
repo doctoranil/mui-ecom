@@ -1,34 +1,33 @@
-
-  {
-    "name": "mui-ecom",
-    "version": "1.0.16",
-    "description": "This package to help ecommerce devlopment easy with material ui",
-    "main": "./dist/cjs/index.js",
-    "module": "./dist/esm/index.js",
-    "types": "./dist/esm/index.d.ts",
-
-    "scripts": {
-      "build": "tsc",
-      "prepublishOnly": "npm run build"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "dependencies": {
-      "ts-node": "^10.4.0",
-      "typescript": "^4.5.5"
-    },
-    "peerDependencies": {
-      "react": "^18.3.1",
-      "react-dom": "^18.3.1"
-    },
-    "devDependencies": {
-      "@types/node": "^20.12.11",
-      "@types/react": "^18.3.2",
-      "@types/react-dom": "^18.0.1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/gapon2401/mui-ecom.git"
-    }
+{
+  "name": "mui-ecom",
+  "version": "1.0.18",
+  "description": "A simple React component library",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "library"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.10",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.0.5"
   }
+}

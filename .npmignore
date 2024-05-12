@@ -1,7 +1,5 @@
-node_modules
-src
-.env
-.github
-
-
-
+# Ignore all files and directories except the ones needed for distribution
+*
+!dist/
+!package.json
+!README.md
