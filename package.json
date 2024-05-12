@@ -1,20 +1,14 @@
 {
   "name": "mui-ecom",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "This package to help ecommerce devlopment easy with material ui",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "main": "src/index.js",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [
-    "react",
-    "typescript",
-    "awesome-project"
-  ],
-  "author": "Anil",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "ts-node": "^10.4.0",
@@ -28,18 +22,5 @@
     "@types/node": "^20.12.11",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.0.1"
-  },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anildev01/mui-ecom.git"
-  },
-  "bugs": {
-    "url": "https://github.com/anildev01/mui-ecom/issues"
-  },
-  "homepage": "https://github.com/anildev01/mui-ecom#readme"
+  }
 }
