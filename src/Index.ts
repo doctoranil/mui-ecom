@@ -1,1 +1,3 @@
-export { default as MyComponent } from './components/MyComponent';
+import MyCounter from './components/App'
+
+export { MyCounter }
